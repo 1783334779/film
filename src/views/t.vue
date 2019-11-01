@@ -1,7 +1,6 @@
 <template>
     <div>
-   <!-- <img :src="focused?selectedImage:normalImage" alt="" class="imgstyle"/>            -->
-   <img :src="focused?selectedImage:normalImage" alt="" class="imgstyle"/>
+        <img :src="focused?selectedImage:normalImage" alt="" class="imgstyle"/>
     </div>
 </template>
 <script>

@@ -43,7 +43,7 @@
 			<div ref="imglist" class="imageList" :style="{width:boxWidth+'rem',paddingLeft:boxPading+'rem',paddingRight:boxPading+'rem'}" >
 				<div class="item" v-for="(item,index) of movieList" :key="index" :data-code="index">
 					<div :style="{left:imgsleft[index]+'rem',top:imgstop[index]+'rem',width:imgwidth[index]+'%'}" ref="img" :data-mid="item.mid">
-							<img :src="'http://127.0.0.1:4000/'+item.pic">
+							<img :src="'http://yexin.applinzi.com'+item.pic">
 					</div>
 						
 				</div>

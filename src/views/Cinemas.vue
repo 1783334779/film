@@ -12,7 +12,7 @@
         <div  class="lunbo">
         <van-swipe :autoplay="3000" indicator-color="white" >
             <van-swipe-item v-for="(is,i) of list1" :key="i">
-                    <img :src="`http://127.0.0.1:4000/${is.img}`" style="width: 414px;height: 100px;">
+                    <img :src="`http://yexin.applinzi.com${is.img}`" style="width: 414px;height: 100px;">
             </van-swipe-item>
            
         </van-swipe>             

@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    
     <mt-tab-container v-model="selected">
       <mt-tab-container-item id="tab1" >
         <Ex></Ex>

@@ -106,7 +106,6 @@
   <van-tab title="看大片">内容 4</van-tab>
 </van-tabs>
 </div>
-
 </div>
 </template>
 <script>

@@ -30,7 +30,7 @@
       </span>  </div>
     <div class="rootstyle" v-for="(item,index) of movies" :key="index">
       <div class="leftimgtxt">
-        <img :src="'http://127.0.0.1:4000/'+item.pic" class="imgstyle" />
+        <img :src="'http://yexin.applinzi.com'+item.pic" class="imgstyle" />
 
         <div class="titlestyle">
           <span class="title">{{item.mname}}</span>
